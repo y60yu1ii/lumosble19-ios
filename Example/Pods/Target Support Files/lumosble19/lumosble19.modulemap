@@ -1,0 +1,6 @@
+framework module lumosble19 {
+  umbrella header "lumosble19-umbrella.h"
+
+  export *
+  module * { export * }
+}

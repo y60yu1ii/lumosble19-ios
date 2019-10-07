@@ -1,0 +1,22 @@
+{
+  "name": "lumosble19",
+  "version": "0.1.0",
+  "summary": "A short description of lumosble19.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/y60yu1ii@gmail.com/lumosble19",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "y60yu1ii@gmail.com": "yaoyu@fishare.de"
+  },
+  "source": {
+    "git": "https://github.com/y60yu1ii@gmail.com/lumosble19.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "lumosble19/Classes/**/*"
+}
