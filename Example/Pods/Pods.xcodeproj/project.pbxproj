@@ -51,6 +51,13 @@
 		660D176C68DAB6D2DD2C49942E470C67 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA94B60D479C265B1331DBE4A228479 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		66E3A8935D64A51EE708E4ABF0B99853 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D623073C8D9727385861B6D9EF6BB /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		6CA8D481C1E05291ABFA31E8F7C6F9B7 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71166542797DC4AAA93BD65C22E39C89 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		6DAA8C5F234B2C2E002941C9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA8C58234B2C2E002941C9 /* Utils.swift */; };
+		6DAA8C60234B2C2E002941C9 /* PeriObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA8C59234B2C2E002941C9 /* PeriObj.swift */; };
+		6DAA8C61234B2C2E002941C9 /* KalmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA8C5A234B2C2E002941C9 /* KalmanFilter.swift */; };
+		6DAA8C62234B2C2E002941C9 /* GattController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA8C5B234B2C2E002941C9 /* GattController.swift */; };
+		6DAA8C63234B2C2E002941C9 /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA8C5C234B2C2E002941C9 /* CentralManager.swift */; };
+		6DAA8C64234B2C2E002941C9 /* AvailObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA8C5D234B2C2E002941C9 /* AvailObj.swift */; };
+		6DAA8C65234B2C2E002941C9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA8C5E234B2C2E002941C9 /* DataManager.swift */; };
 		7260D6AB8CA6662E1F1D0C6640A78F44 /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC0BDBEC22A31A46FFF47DA9F272DD7 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		727BE8F6E14E007FEF525EC8A992874B /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A346D98B0DC1E98C9BD90DB9E7C8B /* QuickSpec.m */; };
 		7517110B2EF5CE253E1443CE078DC3BA /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32DBD61014BBFF8052204B2EE7F8031 /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -213,6 +220,13 @@
 		6A0E4FDF2FEA75C6BCE8FBEA5B1E161F /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		6A9FCA8BEA1B6537608073797CD2A5BD /* Pods-lumosble19_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lumosble19_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6D16FC3A8EEF09E241A3ADE69B2AE5F0 /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickSpecBase/QuickSpecBase.m; sourceTree = "<group>"; };
+		6DAA8C58234B2C2E002941C9 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = lumosble19/Classes/Utils.swift; sourceTree = "<group>"; };
+		6DAA8C59234B2C2E002941C9 /* PeriObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeriObj.swift; path = lumosble19/Classes/PeriObj.swift; sourceTree = "<group>"; };
+		6DAA8C5A234B2C2E002941C9 /* KalmanFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KalmanFilter.swift; path = lumosble19/Classes/KalmanFilter.swift; sourceTree = "<group>"; };
+		6DAA8C5B234B2C2E002941C9 /* GattController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GattController.swift; path = lumosble19/Classes/GattController.swift; sourceTree = "<group>"; };
+		6DAA8C5C234B2C2E002941C9 /* CentralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CentralManager.swift; path = lumosble19/Classes/CentralManager.swift; sourceTree = "<group>"; };
+		6DAA8C5D234B2C2E002941C9 /* AvailObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AvailObj.swift; path = lumosble19/Classes/AvailObj.swift; sourceTree = "<group>"; };
+		6DAA8C5E234B2C2E002941C9 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = lumosble19/Classes/DataManager.swift; sourceTree = "<group>"; };
 		6FD98DB8C1AA8E2390412D61DB64864D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		71166542797DC4AAA93BD65C22E39C89 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		716D438D31F3EB419C8853464DFFCBEA /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
@@ -518,6 +532,13 @@
 		35EED15F1B0ADDE1E606DE703FB448B0 /* lumosble19 */ = {
 			isa = PBXGroup;
 			children = (
+				6DAA8C5D234B2C2E002941C9 /* AvailObj.swift */,
+				6DAA8C5C234B2C2E002941C9 /* CentralManager.swift */,
+				6DAA8C5E234B2C2E002941C9 /* DataManager.swift */,
+				6DAA8C5B234B2C2E002941C9 /* GattController.swift */,
+				6DAA8C5A234B2C2E002941C9 /* KalmanFilter.swift */,
+				6DAA8C59234B2C2E002941C9 /* PeriObj.swift */,
+				6DAA8C58234B2C2E002941C9 /* Utils.swift */,
 				C4EAFA2F6D9DD0C48D42B830AD9FCE74 /* Pod */,
 				07D894639095EA7EA6901322225CE966 /* Support Files */,
 			);
@@ -795,15 +816,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					1BC330E0747C5A60E4993CD2C0AF40F1 = {
+						LastSwiftMigration = 1100;
+					};
+					6F13695E06195A78EA8A95F8C7ED0D2F = {
+						LastSwiftMigration = 1100;
+					};
+					C82891EAB7293DBEE916B21F57E8474D = {
+						LastSwiftMigration = 1100;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 8867BF60E25BD0D32778913834A9E950 /* Products */;
@@ -981,6 +1013,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				97482A02432DDDAE58BB5FABD40A95CB /* lumosble19-dummy.m in Sources */,
+				6DAA8C65234B2C2E002941C9 /* DataManager.swift in Sources */,
+				6DAA8C5F234B2C2E002941C9 /* Utils.swift in Sources */,
+				6DAA8C64234B2C2E002941C9 /* AvailObj.swift in Sources */,
+				6DAA8C60234B2C2E002941C9 /* PeriObj.swift in Sources */,
+				6DAA8C61234B2C2E002941C9 /* KalmanFilter.swift in Sources */,
+				6DAA8C62234B2C2E002941C9 /* GattController.swift in Sources */,
+				6DAA8C63234B2C2E002941C9 /* CentralManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,6 +1057,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93B2C3CA9B87BB43AC2148ED0299583C /* lumosble19.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1050,6 +1090,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 93B2C3CA9B87BB43AC2148ED0299583C /* lumosble19.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1070,6 +1111,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1167,7 +1209,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1198,7 +1240,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1264,7 +1306,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1275,6 +1317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1393,7 +1436,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1405,6 +1448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

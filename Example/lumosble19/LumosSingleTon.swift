@@ -5,7 +5,7 @@
 
 import Foundation
 import CoreBluetooth
-import LumosBLE
+import lumosble19
 
 class LumosSingleton :NSObject {
     //singleton pattern
@@ -18,7 +18,6 @@ class LumosSingleton :NSObject {
 
     public func start(){
         centralMgr.serviceUUIDs = []
-        centralMgr.setting = self
         centralMgr.event = self
         centralMgr.startAPP()
         centralMgr.loadHistory()
@@ -34,18 +33,6 @@ class LumosSingleton :NSObject {
 }
 
 
-extension LumosSingleton : Setting{
-    public func getCustomObj(_ key: String, _ name: String) -> PeriObj {
-        return XRing(key)
-    }
-    public func getCustomAvl(_ peri: CBPeripheral) -> AvailObj {
-        return BuddyAvail(peri)
-    }
-
-    public func getNameRule() -> String {
-        return "(XRING)-[a-zA-Z0-9]{4}"
-}
-}
 
 extension LumosSingleton : EventListener{
     public func didDiscover(_ availObj: AvailObj) {

@@ -6,6 +6,24 @@
 import Foundation
 import CoreBluetooth
 
+
+public protocol EventListener {
+    func didDiscover(_ availObj:AvailObj)
+    func didConnectionChange(_ key:String, isConnected:Bool)
+}
+
+public protocol Setting{
+    func getNameRule() -> String
+    func getCustomObj(_ key:String, _ name:String) -> PeriObj
+    func getCustomAvl(_ peri:CBPeripheral) -> AvailObj
+}
+
+public extension Setting{
+    func getNameRule() -> String{ return ".*?" }
+    func getCustomObj(_ key:String, _ name:String) -> PeriObj { return PeriObj(key) }
+    func getCustomAvl(_ peri:CBPeripheral) -> AvailObj { return AvailObj(peri) }
+}
+
 public class CentralManager: NSObject{
         //singleton pattern
     private static let sharedInstance = CentralManager()
