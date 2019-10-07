@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'lumosble19_Example' do
+  pod 'lumosble19', :path => '../'
+
+  target 'lumosble19_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0'
+  end
+end
