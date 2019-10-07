@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/lumosble19.svg?style=flat)](https://cocoapods.org/pods/lumosble19)
 [![Platform](https://img.shields.io/cocoapods/p/lumosble19.svg?style=flat)](https://cocoapods.org/pods/lumosble19)
 
+## Why this ?
+
+This project contains some modern ways to call the API and will add some new thoughts from my FW developing experience.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
